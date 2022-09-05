@@ -1,0 +1,49 @@
+/* type selector */
+
+h2 {
+    color: red;
+}
+
+
+/* class selector */
+
+.btn {
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn-secondary {
+    background-color: aqua;
+}
+
+/* id selector */
+
+#first {
+    border-top: 1px solid #333;
+}
+
+/* universal selector - google when to use body selector or universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Descendant selectors */
+
+section h2 {
+
+}
+
+/* every section with the class "odd" */
+
+section.odd {
+
+}
+
+/* every element with the classes "rounded" and "important" */
+.rounded.important {
+
+}
